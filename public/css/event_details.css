@@ -1,0 +1,79 @@
+body, .card, .card1, .card-body{
+    background-color: #17202a;
+    color: rgb(238, 238, 238);
+
+}
+
+.flex-container
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.card
+{
+    flex: 1;
+    height: 750px;
+    border-width: 0px;
+}
+.card1
+{
+    flex: 1;
+    height: 100px;
+    border-width: 0px;
+}
+.Date
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card-body img
+{
+    width: 850px;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    padding: 0px;
+}
+.fa-squarespace
+{
+    color: rgb(90, 108, 250);
+    font-size: 30px;
+    margin-right: 5px;
+}
+.icon-title
+{
+    display:flex;
+}
+.fa-location-dot
+{
+    color: rgb(90, 108, 250);
+    margin-right: 5px;
+}
+.clickable-button
+{
+    background-color: rgb(90, 108, 250);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clickable-button:hover
+{
+    background-color: darkred;
+}
+.fa-calendar
+{
+    color: rgb(90, 108, 250);
+    margin-right: 5px;
+}
+.fa-clock
+{
+    color: rgb(90, 108, 250);
+    margin-right: 5px;
+}
+.horizon
+{
+    border-bottom: 1px rgb(128, 128, 128) solid;
+}
